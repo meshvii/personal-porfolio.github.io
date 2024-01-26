@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Meshvi's Portfolio </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ed573f6265.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpeg" class="logo">
+                    <ul id="side">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#ccr">Co-Curricular</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="headertext">
+                    <p>
+                        A passionate Computer Science Student!
+                    </p>
+                    <h1>
+                        Hi, I am <span>Meshvi Patel</span>.
+                    </h1>
+                    <h3> Glad to see you here!</h3>
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col1">
+                        <img src="images/IMG_6897.jpeg" >
+                    </div>
+                    <div class="col2">
+                        <h1 class="sub-title"> About-Me </h1>
+                        <p> 
+                             My name is Meshvi Patel.
+                             As a Computer Science Co-op Student at the University of Manitoba, 
+                             I am passionate about applying my web development and data analysis skills to solve real-world problems.
+                             My goal is to pursue a career in web development or data science that allows me to use my creativity and analytical abilities.</p>
+
+                             <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                                <p class="tab-links" onclick="opentab('education')"> Education</p>
+                                <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                             </div>
+                             <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span> Website Development </span> <br> Making a Webpage</li>
+                                    <li><span> Data Analytics </span> <br> Making Data Insights</li>
+                                </ul>
+                             </div>
+
+                             <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span> Fall 2021 - Present  </span> <br> Computer Science Honours Co-op at University of Manitoba</li>
+                                    <li><span> Fall 2020 - Fall 2021 </span> <br> Bachelor of Science at International College of Manitoba</li>
+                                </ul>
+                             </div>
+
+
+                             <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span> August 2023 - Present </span> <br>Customer Service Rep. at UMSU Service Centre</li>
+                                    <li><span> August 2022 - Present  </span> <br> Cast Leader at Silvercity, Cineplex</li>
+                                </ul>
+                             </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+       <div id="ccr">
+        <div class="container">
+            <h1 class="sub-title"> Co-Curricular </h1>
+            <div class="cocurriculatlist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Assistant Outreach Coordinator</h2>
+                    
+                    <p>
+                        Collaborated with the outreach coordinator to enhance resources for outreach initiatives, improving program efficiency. Developed a six-week curriculum for grade 5-6 students, focusing on HTML and CSS for website development, resulting in increased student participation and understanding. Implemented a streamlined record-keeping system for volunteer activities, ensuring accurate documentation for participants' co-curricular records.
+                    </p>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2> Instructor </h2>
+                    
+                    <p>
+                        Conducted an interactive coding workshop on Emoji Art using Python and Processing for diverse audiences. Fostered a supportive learning environment for varying skill levels. Collaborated with the chapter lead to align instructional content with program objectives, ensuring a cohesive and impactful learning experience for participants.
+                    </p>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2> Canu X Wics Instructor</h2>
+                    
+                    <p>
+                        Orchestrated and led hands-on workshops on website development using HTML and CSS for students in grades 5 to 10. Provided engaging learning experiences that enhanced participants' skills and understanding of web development concepts. Volunteered at the CANU Fam Fest, representing the organization at coding game booths and showcasing student-created websites, contributing to the promotion of coding education. Successfully taught and reached over 200 students by Winter 2023, demonstrating a commitment to expanding coding education and making a positive impact on a significant number of students.
+                    </p>
+                   
+                </div>
+
+            </div>
+        </div>
+       </div>
+       
+
+
+       <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work </h1>
+
+            <div class="projects">
+                <div class="work">
+                    <img src="images/Signs-of-the-Zodiac-astrology.webp">
+                    <div class="layer">
+                        <h3> Astrology App</h3>
+                        <p> A satirical Astrology App</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>       
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/3.jpeg">
+                    <div class="layer">
+                    <h3> Weather App</h3>
+                    <p>
+                        A weather app displaying weather data.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="images/download.png">
+                    <div class="layer">
+                    <h3> Sudoku </h3>
+                         <p> A Sudoku Game </p>   
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+       </div>
+
+
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactl">
+                    <h1 class="sub-title"> Contact Me </h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>meshvipatel8020@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/meshvi-patel/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/meshvii"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    
+                </div>
+          
+                <div class="contactr">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+       </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("side");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwa-NjqWY2f7KVENoNu1sqTIjirWaSMrARim6BCUHhDJ5Pj8RnB5dhwqz9gihVktFmc2g/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg= document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {msg.innerHTML = "Message Sent Successfully"   
+                 setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
